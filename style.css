@@ -71,7 +71,7 @@ body {
   position: absolute;
   z-index: 3;
   bottom: 13%;
-  right: 39%;
+  right: 38%;
 }
 
 .subimg4 {
@@ -94,7 +94,7 @@ body {
   right: 20%;
 }
 
-@media screen and (min-width: 400px) and (max-width: 896px) {
+@media screen and (min-width: 300px) and (max-width: 896px) {
   .shoes {
     margin-left: 60%;
   }
@@ -129,5 +129,40 @@ body {
     height: 1200px;
     background-size: cover;
     background-repeat: repeat;
+  }
+}
+
+@media screen and (min-width: 1020px) and (max-width: 1026px) {
+  .subimg2 {
+    position: absolute;
+    bottom: 13%;
+    z-index: 1;
+  }
+
+  .subimg1 {
+    position: absolute;
+    z-index: 3;
+    bottom: 13%;
+    right: 38%;
+  }
+
+  .subimg4 {
+    position: absolute;
+    bottom: 11%;
+    z-index: 1;
+    right: 12%;
+  }
+
+  .subimg4 p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 0.79);
+  }
+
+  .subimg3 {
+    position: absolute;
+    z-index: 3;
+    bottom: 13%;
+    right: 15%;
   }
 }
