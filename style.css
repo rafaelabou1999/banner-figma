@@ -1,0 +1,133 @@
+body {
+  background-image: url("images/novo.png");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.shoes img {
+  width: 30%;
+  position: absolute;
+  top: 20%;
+
+  z-index: 18;
+}
+
+.shoe img {
+  z-index: 13;
+}
+
+.txt {
+  margin: 0 26% 0 20%;
+}
+.txt-h2 {
+  margin-top: 20%;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+
+  font-size: 64px;
+  color: white;
+}
+
+.txt-p {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 13px;
+}
+
+.txt-img {
+  margin-top: 4%;
+}
+
+/*social media*/
+.social {
+  background-image: url("images/Rectangle2.png");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  margin-top: 7%;
+}
+
+.social-txt {
+  padding-top: 1%;
+  color: white;
+  padding-right: 7%;
+}
+
+.social-img {
+  padding-top: 1%;
+}
+
+/*SQUARES*/
+
+.subimg2 {
+  position: absolute;
+  bottom: 13%;
+  z-index: 1;
+}
+
+.subimg1 {
+  position: absolute;
+  z-index: 3;
+  bottom: 13%;
+  right: 41%;
+}
+
+.subimg4 {
+  position: absolute;
+  bottom: 11%;
+  z-index: 1;
+  right: 25%;
+}
+
+.subimg4 p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.79);
+}
+
+.subimg3 {
+  position: absolute;
+  z-index: 3;
+  bottom: 13%;
+  right: 28%;
+}
+
+@media screen and (min-width: 400px) and (max-width: 896px) {
+  .shoes {
+    margin-left: 60%;
+  }
+
+  .txt-p {
+    margin-top: 15%;
+  }
+
+  .img-square1 {
+    display: none;
+  }
+
+  .img-square2 {
+    display: none;
+  }
+
+  .subimg1 {
+    display: none;
+  }
+
+  .subimg2 {
+    display: none;
+  }
+
+  .subimg3 {
+    display: none;
+  }
+
+  body {
+    background-image: url("images/novo.png");
+    width: 100%;
+    height: 1200px;
+    background-size: cover;
+    background-repeat: repeat;
+  }
+}
