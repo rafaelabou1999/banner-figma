@@ -94,6 +94,10 @@ body {
   right: 20%;
 }
 
+footer {
+  text-align:center;
+}
+
 @media screen and (min-width: 300px) and (max-width: 896px) {
   .shoes {
     margin-left: 60%;
